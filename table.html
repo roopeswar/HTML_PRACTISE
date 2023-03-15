@@ -21,6 +21,11 @@
 
     <header>
         <h1> List of courses in a tableview </h1>
+
+        <ol>
+
+            <li><a href="#contact">Contact Form</a></li>
+            </ol>
     </header>
     <main>
        <article>
@@ -64,11 +69,70 @@
             </table>
 
         </article>
+        <hr>
+
+
+        <article id = "contact"> 
+                     <h2> Contact me </h2>
+
+
+            <form action="https://httpbin.org/post" method="post">
+                <fieldset>
+                    <legend>College form</legend>
+
+              <p>  <label for="firstName">First Name :</label>
+                <input type="text" name="firstName" id="firstName" placeholder="Yannam" autocomplete="on" required autofocus>
+                </p>
+                <br>
+<p>
+                <label for="LastName">Last Name :</label>
+                <input type="text" name="LastName" id="LastName" placeholder="Roopesh" autocomplete="on" required>
+
+              </p>  
+              <p>
+                <label for="password">password :</label>
+                <input type="password" name="password" id="password"  required>
+
+              </p>  
+              <p>
+                <label for="phone">phone :</label>
+                <input type="tel" name="phone" id="phone" pattern="+[0-9]{2}-[0-9]{10}"  required> <!---pattern is given so i/p should match according to pattern --->
+  
+                </p>  
+
+                <p>
+
+                    <label for="course_start">Course start:</label>
+                    <input type="number" name="course_start" id="course_start" min="2023" max="2029" step="1" value="2023">
+                </p>
+
+                 <p>
+                    <label for="course">Courses offered : </label>
+                    <select name="course" id="coure">
+                        <option value="Electrical">EEE</option>
+                        <option value="Electronics">ECE</option>
+                    </select>
+
+                 </p>
+
+                 <p>
+                    <label for="message">Type your message</label> 
+                    <br>
+                     <textarea name="message" id="meassge" cols="50" rows="30"></textarea>
+
+                 </p>
+
+                 
+
+                </fieldset>
+             
+            </form>
+            <a href="Thanks.html">
+                <button type="submit" >submit</button>
+            </a>
+                
+            </article>
     </main>
 
 </body>
-
-
-
-
 </html>
