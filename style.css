@@ -1,14 +1,32 @@
+
+
+*{
+    margin: 0%;
+}
+
 body{
 
-    font-size: 22px;
-    background-color:papayawhip;
-    color: black;
+    background-color: rgb(0,0,0);
+    color: rgb(255,255,255);
+}
+h1{
+    margin-left: 0%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-style: solid;
+    border-width: thin,thick;
+    border-color: rgb(255,255,255);
+    padding-left: 48%;
+    color: hsl(300, 77%, 85%);
+}
+#style1{
+
+    color: hsl(0, 11%, 91%);
+    border-style: solid;
 }
 
-p {
-
-    color: black;
-}
 .c1{
-    color: darkcyan;
+  color: rgb(191, 237, 249);
+  margin-left: 50%;
 }
+
