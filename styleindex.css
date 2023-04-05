@@ -1,0 +1,40 @@
+a{
+text-decoration : underline;
+color : black;
+}
+a :visited {
+
+    color : green;
+}
+
+a:hover , a:focus{
+    color : blue;
+    background-color: gold;
+}
+
+ol{
+    list-style-type: lower-roman;
+    color: blueviolet;
+    border: solid;
+    border-color: black;
+    
+    list-style-position: inside;
+    line-height: 120%;
+    
+}
+ol li:nth-child(odd){
+    color: brown;
+}
+
+nav {
+    border : 2px solid black;
+    max-width :600px;
+    margin-left: 35%;
+    border-radius: 10%;
+    line-height: 150%;
+}
+ul{
+    list-style-position: inside;
+
+    border-top: 1px solid black;
+}
